@@ -2,4 +2,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'shop/pages/home.html')
+    context = {
+        'title': 'Home'
+    }
+    return render(request, 'shop/pages/home.html', context)
