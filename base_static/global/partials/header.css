@@ -42,13 +42,12 @@ header{
 
 
 .list-container #login{
+    border-radius: 5px;
     margin-left: 20px;
-    width: 50px;
-    padding: 5px;
+    padding: 7px;
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
-
 
 
 .search-input-container .search-input{
@@ -58,7 +57,6 @@ header{
     height: 30px;
     width: 500px;
 }
-
 
 .create-account-container{
     margin: auto;
