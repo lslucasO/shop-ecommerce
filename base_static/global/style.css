@@ -9,7 +9,8 @@
 }
 
 :root{
-
+    --default-header-font-size: 1.3em; 
+    --default-font-family: "DIN Neuzeit Grotesk LT W01 BdCn";
     --default-text-color: black;
 
     /* Global Django Messages Styles  */
@@ -31,4 +32,6 @@
 
 header .main-content-container .list-container .item {
     color: var(--default-text-color);
+    font-family: var(--default-font-family);
+    font-size: var(--default-header-font-size);
 }

@@ -4,22 +4,29 @@
 
 
 header{
-    height: 60px;
+    height: 50px;
     background-color: var(--header-bg-color);
 }
 
 
 .main-content-container{
+    
+    justify-content: center;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.118);
-    padding: 30px;
+    padding: 20px;
     display: flex;
 }
 
 .list{
-    gap: 30px;
+    gap: 60px;
     display: flex;
 }
 
+
+.item-list-container{
+    margin: auto;
+    text-align: center;
+}
 
 .list-container{
     list-style: none;
@@ -34,7 +41,28 @@ header{
 }
 
 
-.search-input-container .search-input{
-    max-width: 400px;
-    width: 5000px;
+.list-container #login{
+    margin-left: 20px;
+    width: 50px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
 }
+
+
+
+.search-input-container .search-input{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    height: 30px;
+    width: 500px;
+}
+
+
+.create-account-container{
+    margin: auto;
+    text-align: center;
+}
+
+
