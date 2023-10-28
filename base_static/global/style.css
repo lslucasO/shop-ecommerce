@@ -1,10 +1,17 @@
+@import url(https://db.onlinewebfonts.com/c/bb2e1211dfd31103079dbce7c49e1d4e?family=DIN+Neuzeit+Grotesk+LT+W01+BdCn);
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root{
+
+    --default-text-color: black;
+
     /* Global Django Messages Styles  */
     --color-dark-text: #444;
     --color-info-light: #cce5ff;
@@ -21,3 +28,7 @@
     --color-error-dark: #da525d;
 }
 
+
+header .main-content-container .list-container .item {
+    color: var(--default-text-color);
+}
