@@ -6,3 +6,10 @@ def home(request):
         'title': 'Home'
     }
     return render(request, 'shop/pages/home.html', context)
+
+
+def products(request):
+    context = {
+        'title': 'Products'
+    }
+    return render(request, 'shop/pages/products.html', context)

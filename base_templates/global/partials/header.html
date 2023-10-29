@@ -7,9 +7,8 @@
         <div class="item-list-container">
             <ul class="list-container">
                 <li class="list">
-                    <a class="item" href="#">Home</a>
-                    <a class="item" href="#">Products</a>
-                    <a class="item" href="#">Dashboard</a>
+                    <a class="item" href="{% url 'shop:home' %}">Home</a>
+                    <a class="item" href="{% url 'shop:products' %}">Products</a>
                 </li>
             </ul>
         </div>
@@ -20,7 +19,7 @@
             <ul class="list-container">
                 <li class="account-item">
                     <a class="item" href="#">Create Account</a>
-                    <a class="item" id="login"  href="#">Login</a>
+                    <a class="item" id="login" href="#">Login</a>
                 </li>
             </ul>
         </div>
